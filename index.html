@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="porfolio" />
+    <meta name="keyword" content="web development, E-commerce, fullstack" />
+    <!-- Adding title -->
+    <title>
+      Portfolio-Kalaiarasi
+    </title>
+    <!-- Linking style sheet -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Adding Header -->
+    <header>
+      <!-- adding name as logo -->
+      <h2 class="logo"><span>kalai.</span></h2>
+      <!-- Adding navigation menu -->
+      <nav class="navigation">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Projects</a>
+        <a href="#">Contact</a>
+      </nav>
+      <a href="#" class="btn-contact">Contact Me</a>
+    </header>
+    <!-- About me section -->
+    <section class="aboutMe">
+      <div class="content">
+        <h2>Hi, I'm <span>Kalaiarasi</span></h2>
+        <h4>Full Stack and Magento Developer</h4>
+        <p>
+          I have 3 years of experience in E-commerce website development using
+          magento. Additionally i am doing fullstack developement
+        </p>
+        <div class="btn-group">
+          <a href="#">Download Resume</a>
+        </div>
+      </div>
+    </section>
+    <!-- Adding project details -->
+    <section class="projects">
+      <div class="title">Projects</div>
+      <!-- project one -->
+      <div class="project-wrap">
+        <div class="project-image">
+          <img src="images/magroots.png" />
+        </div>
+        <div class="project-description">
+          <h3>Magroots</h3>
+          <p>
+            Magroots provides the mobile app extension that allows you to
+            convert your Magento site to a native mobile app.
+          </p>
+          <h3>Example Link</h3>
+          <p>
+            <a href="http://facebook.com/magrootsproduct/"
+              >http://facebook.com/magrootsproduct/</a
+            >
+          </p>
+          <h3>Technologies Used</h3>
+          <p>Magento 1, PHP, SQL, Jquery</p>
+        </div>
+      </div>
+      <!-- Project two -->
+      <div class="project-wrap">
+        <div class="project-description">
+          <h3>Alliance UK</h3>
+          <p>
+            Alliance UK is a top provider of cleaning, janitorial, catering, and
+            hygiene supplies to both commercial and FM customers in the UK. It
+            developed using magento 2 technologies
+          </p>
+          <h3>Example Link</h3>
+          <p>
+            <a href="https://www.allianceuk.com/"
+              >https://www.allianceuk.com/</a
+            >
+          </p>
+          <h3>Technologies Used</h3>
+          <p>Magento 2, PHP, SQL</p>
+        </div>
+        <div class="project-image">
+          <img src="images/alliance-uk.png" />
+        </div>
+      </div>
+      <!--Project three-->
+      <div class="project-wrap">
+        <div class="project-image">
+          <img src="images/autopropel.png" />
+        </div>
+        <div class="project-description">
+          <h3>Autopropel</h3>
+          <p>
+            AutoPropel helps speed up testing and makes automation faster for
+            both functional and non-functional testing. Its automation tool
+            allows early testing and lets teams create test scripts while
+            designing and developing software
+          </p>
+          <h3>Example Link</h3>
+          <p>
+            <a href="https://www.linkedin.com/showcase/autopropel/about/"
+              >https://www.linkedin.com/showcase/autopropel/about/</a
+            >
+          </p>
+          <h3>Technologies Used</h3>
+          <p>PHP, Selenium, Mysql</p>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <div class="contact-container">
+        <h1>Contact Me</h1>
+        <form action="./confirmation.html">
+          <label for="name">Name</label>
+          <input type="text" placeholder="Enter your name" name="username"/>
+
+          <label for="email">Email</label>
+          <input type="text" placeholder="Enter your email" name="email" />
+
+          <label for="service">Service Needed</label>
+          <select>
+            <option value="">----Select Service---</option>
+            <option value="">Web Development</option>
+            <option value="">Automation</option>
+            <option value="">E-commerce Site</option>
+          </select>
+
+          <label for="description">Description</label>
+          <textarea placeholder="Describe your request..." rows="6" cols="20"></textarea>
+
+          <button type="submit">Submit</button>
+          <button type="reset">Reset</button>
+        </form>
+      </div>
+    </section>
+    <section class="footer">
+        <footer>
+            <p>&copy; 2025 Your Name. All rights reserved.</p>
+        </footer>
+    </section>
+  </body>
+</html>
